@@ -19,5 +19,5 @@ $ (venv) pip install -r requirements.txt
 ```
 run
 ```
-$ (venv) python app.py
+$ (venv) python3 app.py
 ```
