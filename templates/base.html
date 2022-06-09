@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test BlackBlaze Uploading</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="s-body">
+        <form class="s-main">
+            <label for="formFileMultiple" class="form-label">Multiple files input</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple />
+            <button id="formButton" class="btn btn-primary">Send</button>
+            <p id="message"></p>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
